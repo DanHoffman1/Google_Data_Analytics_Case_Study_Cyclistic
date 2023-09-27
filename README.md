@@ -6,6 +6,9 @@ In this Case study I will perform the tasks of a junior data analyst at a fictio
 Data Source: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 SQL Queries:
+[Query 1 Combining Data](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/Query%201%20Combining%20Data)
+[Query 2 Exploring the Data](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/Query%202%20Exploring%20the%20Data%20(SQL))
+
 
 ## Background
 ### Cyclistic
