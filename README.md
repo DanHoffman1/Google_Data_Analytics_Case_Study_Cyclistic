@@ -11,6 +11,8 @@ SQL Queries:
 3. [Query 3 Cleaning the Data](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/Query%203%20Cleaning%20the%20Data%20(SQL))
 4. [Query 4 Analyze the Data](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/Query%204%20Analyze%20the%20Data-%20(SQL))
 
+Data Visualizations [Tableau](https://public.tableau.com/app/profile/daniel.hoffman8788/viz/CyclisticCaseStudy_16953515488350/Dashboard1#1)
+
 ## Background
 ### Cyclistic
 Cyclistic is a bike-share company in Chicago with different cycling offerings.  The program has grown to a fleet of 5,824 bicycles locked into a network of 692 stations across Chicago. Cyclistic strives to be inclusive with their types of bikes including traditional bicycles, hand cylcles, reclining cycles, and cargo cycles for those who cannot use a standard 2 wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to commute to work each day.
