@@ -1,0 +1,46 @@
+-- Combining All Data
+
+drop table if exists cyclistic_data.combined_data;
+
+-- Combining 12 months of data tables into a table representing August 2022 through July 2023
+
+create table if not exists cyclistic_data.combined_data
+as (
+  select* 
+  from cyclistic_data.202208
+  union all
+  select* 
+  from cyclistic_data.202209
+  union all
+  select* 
+  from cyclistic_data.202210
+  union all
+  select* 
+  from cyclistic_data.202211
+  union all
+  select* 
+  from cyclistic_data.202212
+  union all
+  select* 
+  from cyclistic_data.202301
+  union all
+  select* 
+  from cyclistic_data.202302
+  union all
+  select*
+  from cyclistic_data.202303
+  union all
+  select*
+  from cyclistic_data.202304
+  union all
+  select* 
+  from cyclistic_data.202305
+  union all
+  select*
+  from cyclistic_data.202306
+  union all
+  select* 
+  from cyclistic_data.202307
+);
+
+-- Check total number of rows. Results: 5723606
