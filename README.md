@@ -1,4 +1,4 @@
-# Google_Data_Analytics_Case_Study_Cyclistic
+# Google Data Analytics Case Study Cyclistic
 Capstone Project for Google Data Analytics Certificate
 ## Introduction:
 In this Case study I will perform the tasks of a junior data analyst at a fictional bikeshare company, Cyclistic, using real world data. By following the Data-Driven Decision-Making Process: [Ask](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#Ask), [Prepare](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#prepare), [Process](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#process), Analyze, Share and Act, to answer business questions.
