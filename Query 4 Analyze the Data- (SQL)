@@ -1,0 +1,153 @@
+-- Data Analysis
+
+-- Number of trips per day of week by members and casual riders.
+
+select
+day_of_week,
+member_casual,
+count(ride_id)
+as total_trips
+from `cyclistic-case-study-399602.cyclistic_data.cleaned_data`
+group by
+day_of_week,
+member_casual
+order by
+member_casual;
+
+-- Number of trips per month by members and casual riders.
+
+select
+month,
+member_casual,
+count(ride_id)
+as total_trips
+from `cyclistic-case-study-399602.cyclistic_data.cleaned_data`
+group by
+month,
+member_casual
+order by
+member_casual;
+
+-- Number of trips per hour by members and casual riders.
+
+select
+extract(hour from started_at)
+as hour,
+member_casual,
+count(ride_id)
+as total_trips,
+from `cyclistic-case-study-399602.cyclistic_data.cleaned_data`
+group by
+hour,
+member_casual
+order by
+member_casual;
+
+-- Total number of trips by members and casual riders.
+
+select
+count(ride_id)
+as total_trips,
+member_casual
+from `cyclistic-case-study-399602.cyclistic_data.cleaned_data`
+group by
+member_casual
+order by
+member_casual;
+
+-- Number of trips by type of bike by members and casual riders.
+
+select
+count(ride_id)
+as total_trips,
+member_casual,
+rideable_type
+from `cyclistic-case-study-399602.cyclistic_data.cleaned_data`
+group by
+member_casual,
+rideable_type
+order by
+member_casual,
+total_trips;
+
+-- Average duration by month by members and casual riders.
+
+select
+member_casual,
+month,
+avg(ride_length)
+as avg_duration
+from `cyclistic-case-study-399602.cyclistic_data.cleaned_data`
+group by
+month,
+member_casual;
+
+-- Average duration by day of the week by members and casual riders.
+
+select
+member_casual,
+day_of_week,
+avg(ride_length)
+as avg_duration
+from `cyclistic-case-study-399602.cyclistic_data.cleaned_data`
+group by
+day_of_week,
+member_casual;
+
+-- Number of trips by starting location by members and casual riders.
+
+select
+member_casual,
+count(ride_id)
+as total_trips,
+start_station_name
+from `cyclistic-case-study-399602.cyclistic_data.cleaned_data`
+group by
+start_station_name,
+member_casual
+order by
+member_casual;
+
+-- Number of trips by ending location by members and casual riders.
+
+select
+member_casual,
+count(ride_id)
+as total_trips,
+end_station_name
+from `cyclistic-case-study-399602.cyclistic_data.cleaned_data`
+group by
+end_station_name,
+member_casual
+order by
+member_casual;
+
+--Number of Trips by starting location by members and casual riders.
+
+select
+start_station_name, member_casual,
+avg(start_lat)
+as start_lat,
+avg(start_lng)
+as start_lng,
+count(ride_id)
+as total_trips
+from `cyclistic-case-study-399602.cyclistic_data.cleaned_data`
+group by
+start_station_name,
+member_casual;
+
+-- Number of Trips by ending location by memebers and casual riders.
+
+select
+end_station_name, member_casual,
+avg(end_lat)
+as end_lat,
+avg(end_lng)
+as end_lng,
+count(ride_id)
+as total_trips
+from `cyclistic-case-study-399602.cyclistic_data.cleaned_data`
+group by
+end_station_name,
+member_casual;
