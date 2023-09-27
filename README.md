@@ -16,3 +16,15 @@ Until now, Cyclistic’s marketing strategy relied on building general awareness
 Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. Although the pricing flexibility helps Cyclistic attract more customers, Moreno believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a very good chance to convert casual riders into members. She notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.
 
 Moreno (fictional director of marketing, and my boss) has set a clear goal: Design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, the marketing analyst team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
+
+### Scenario
+I will be assuming the role of a Junior Analyst on the Marketing Analyst Team in the company Cyclistic. The goal is to maximize annual memberships amongst riders. The director of marketing has tasked me with identifying how members and casual riders use Cyclistic's services differently. My insights will guide the marketing team to create a new marketing strategy to convert causual riders to annual members. To approve the new markeing strategy, executives at cyclistic will require compelling visuals and  data insights.
+
+## Ask
+### Business Task
+Devise marketing strategies to convert casual riders to members.
+### Analysis Questions
+Three questions will guide the future marketing program:  
+1. How do annual members and casual riders use Cyclistic bikes differently?  
+2. Why would casual riders buy Cyclistic annual memberships?  
+3. How can Cyclistic use digital media to influence casual riders to become members?  
