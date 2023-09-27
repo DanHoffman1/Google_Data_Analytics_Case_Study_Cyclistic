@@ -48,6 +48,7 @@ The Data files have a title in the form of YYYYMM-divvy-tripdata. I am using 12 
 
 ## Process
 Bigquery was used to combine and clean 12 csv files.
+
 Reason: 
 Due to the volume of data. With each month of data containing several hundred thousand rows a large amount of data would need to be analyzed without losing values.
 
