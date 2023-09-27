@@ -42,3 +42,8 @@ Moreno has assigned me the first question to answer: How do annual members and c
 I will be using the most recent 12 months, July 2022 - August 2023 of data from the data source to create the most actionable and relevant insights. Data was accessed by downloading files from [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).
 
 This is public data that we can use to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit us from using riders’ personally identifiable information. This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
+
+### Data Organization
+The Data files have a title in the form of YYYYMM-divvy-tripdata. I am using 12 of them where each contains the data of one month with the following information, the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider has a membership or not. The corresponding column names are ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual.
+
+## Process
