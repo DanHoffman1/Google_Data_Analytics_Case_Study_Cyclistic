@@ -33,6 +33,6 @@ Moreno has assigned me the first question to answer: How do annual members and c
 
 ## Prepare
 ### Data Source
-I will be using the most recent 12 months, July 2022 - August 2023 of data from the data source to create the most actionable and relevant insights. Data was accessed by downloading files from [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
+I will be using the most recent 12 months, July 2022 - August 2023 of data from the data source to create the most actionable and relevant insights. Data was accessed by downloading files from [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).
 
 This is public data that we can use to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit us from using riders’ personally identifiable information. This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
