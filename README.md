@@ -47,3 +47,9 @@ This is public data that we can use to explore how different customer types are 
 The Data files have a title in the form of YYYYMM-divvy-tripdata. I am using 12 of them where each contains the data of one month with the following information, the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider has a membership or not. The corresponding column names are ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual.
 
 ## Process
+Bigquery was used to combine and clean 12 csv files.
+Reason: due to the volume of data. With each month of data containing several hundred thousand rows a large amount of data would need to be analyzed without losing values.
+
+### Combine Data
+SQL Query [Query 1 Combining Data](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/Query%201%20Combining%20Data)
+12 csv files were uploaded to Google Cloud Storage to be combined and cleaned in Bigquery. These files were loaded into the dataset "cyclistic_data" and combined into a single table named "combined_data" with 5,723,606 rows.
