@@ -1,0 +1,118 @@
+-- Exploring the data
+
+-- Check data types
+
+SELECT 
+column_name, 
+data_type
+FROM cyclistic_data.INFORMATION_SCHEMA.COLUMNS;
+
+-- Check each column for null values. Results: null values in: start_station_name,start_station_id, end_station_name, end_station_id, end_lat, end_lng.
+
+select
+count(*) - COUNT(ride_id) ride_id,
+count(*) - COUNT(rideable_type) rideable_type,
+count(*) - COUNT(started_at) started_at,
+count(*) - COUNT(ended_at) ended_at,
+count(*) - COUNT(start_station_name) start_station_name,
+count(*) - COUNT(start_station_id) start_station_id,
+count(*) - COUNT(end_station_name) end_station_name,
+count(*) - COUNT(end_station_id) end_station_id,
+count(*) - COUNT(start_lat) start_lat,
+count(*) - COUNT(start_lng) start_lng,
+count(*) - COUNT(end_lat) end_lat,
+count(*) - COUNT(end_lng) end_lng,
+count(*) - COUNT(member_casual) member_casual
+from `cyclistic-case-study-399602.cyclistic_data.combined_data`;
+
+-- Check for any duplicate rows. Results: None found
+
+select 
+count(ride_id) - count(distinct ride_id) 
+as duplicate_rows,
+from `cyclistic-case-study-399602.cyclistic_data.combined_data`;
+
+-- Check length of ride_id to ensure they are correctly entered. Results: all 16 characters in length
+
+select 
+length(ride_id) 
+as length_ride_id, 
+count(ride_id) 
+as no_of_rows
+from `cyclistic-case-study-399602.cyclistic_data.combined_data`
+group by length_ride_id;
+
+-- Identifying the types of bikes used. Results: 3 types
+
+select 
+distinct rideable_type, 
+count(rideable_type)
+as no_of_trips
+from `cyclistic-case-study-399602.cyclistic_data.combined_data`
+group by rideable_type;
+
+-- Identifying time stamp format - YYYY-MM-DD hh:mm:ss UTC
+
+select 
+started_at, 
+ended_at
+from `cyclistic-case-study-399602.cyclistic_data.combined_data`
+limit 10;
+
+-- Counting trips that are longer than a day. Results: 5292
+
+select 
+count(*)
+as longer_than_a_day
+from `cyclistic-case-study-399602.cyclistic_data.combined_data`
+where (
+  extract(hour from (ended_at - started_at)) * 60 +
+  extract(minute from (ended_at - started_at)) +
+  extract(second from (ended_at - started_at)) / 60) >= 1440;
+
+-- Counting trips that are shorter than a minute. Results: 153165
+
+select
+count(*) 
+as less_than_a_minute
+from `cyclistic-case-study-399602.cyclistic_data.combined_data`
+where (
+  extract(hour from (ended_at - started_at)) * 60 +
+  extract(minute from (ended_at - started_at)) +
+  extract(second from (ended_at - started_at)) / 60) <= 1;
+
+-- Count of rows with null values in either start_station_name or start_station_id. Results: 868904
+
+select
+count(ride_id) 
+as start_station_null
+from `cyclistic-case-study-399602.cyclistic_data.combined_data`
+where start_station_name is null
+or start_station_id is null;
+
+-- Count of rows with null values in either end_station_name or end_station_id. Results: 925149
+
+select
+count(ride_id)
+as end_station_null
+from `cyclistic-case-study-399602.cyclistic_data.combined_data`
+where end_station_name is null
+or end_station_id is null;
+
+-- Count of rows with null values in either end_lat or end_lng. Results: 6102
+
+select
+count(ride_id)
+as end_location_null
+from `cyclistic-case-study-399602.cyclistic_data.combined_data`
+where end_lat is null
+or end_lng is null;
+
+-- Checking member_casual to for any errors inputing either member or causal. Results: members 3554051, casual 2169555, no other inputs.
+
+select
+distinct member_casual,
+count(member_casual)
+as number_of_trips
+from `cyclistic-case-study-399602.cyclistic_data.combined_data`
+group by member_casual;
