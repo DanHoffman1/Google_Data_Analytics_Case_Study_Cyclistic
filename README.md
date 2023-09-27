@@ -48,8 +48,10 @@ The Data files have a title in the form of YYYYMM-divvy-tripdata. I am using 12 
 
 ## Process
 Bigquery was used to combine and clean 12 csv files.
-  Reason: due to the volume of data. With each month of data containing several hundred thousand rows a large amount of data would need to be analyzed without losing values.
+Reason: 
+Due to the volume of data. With each month of data containing several hundred thousand rows a large amount of data would need to be analyzed without losing values.
 
 ### Combine Data
 SQL Query [Query 1 Combining Data](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/Query%201%20Combining%20Data)
-  12 csv files were uploaded to Google Cloud Storage to be combined and cleaned in Bigquery. These files were loaded into the dataset "cyclistic_data" and combined into a single table named "combined_data" with 5,723,606 rows.
+
+12 csv files were uploaded to Google Cloud Storage to be combined and cleaned in Bigquery. These files were loaded into the dataset "cyclistic_data" and combined into a single table named "combined_data" with 5,723,606 rows.
