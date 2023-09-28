@@ -151,3 +151,18 @@ We can infer from these observations that members may be using bikes for commuti
 Next I show what types of bikes members use vs casual riders.
 
 ![Rideable type](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/2e71e2c8-4e27-4482-9755-d733e445e4fe)
+
+From this bar graph we can see that overall members and casual riders prefer the classic bikes. Casual members are the only type that use the docked bikes and not very often, and both members and casual riders use the electic bikes a lot, but not as much as the classic bike. Overall the members take more trips than the casual members.
+
+Next I compare starting locations for members and casual riders.
+
+![starting locatoin](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/5aecd178-ef29-467d-99ca-abd6e9bcadb4)
+
+The maps show how the casual riders tend to concentrate more in the downtown area when starting their trips, Especially near attractions and recreation areas such as the Navy Pier. Members are not so concentrated, being more spreadout with their starting location.
+
+Lastly I compared the ending locations for members and casual riders.
+
+![Ending location](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/2786331c-9309-4ec9-b3b9-d77d5bc100fc)
+
+The maps here show the same trend as the starting locations map. Casual riders are more concentrated in the downtown near attractions, members are more spreadout.
+
