@@ -63,5 +63,6 @@ Before cleaning the data, I need to familiarize myself with the types of data I 
 
 Observations:
 1. The Table below displays the column names and data types. ride_id is the primary key.
+
 ![combined table details](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/07234167-9a45-41e9-9d29-f0eb0b75c114)
 
