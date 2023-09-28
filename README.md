@@ -68,5 +68,4 @@ Observations:
 
 2. The table below dsiplays the **null values**
 
-![combined table null values](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/9b674a01-e9f9-4d88-a791-cc3bf41e4b5d)
-
+![combined table null values](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/032943ae-2636-40a2-a243-b887f690a30b)
