@@ -79,7 +79,7 @@ Several columns were found to have missing data, including starting_station id a
 
 ![ride_id length](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/06d3e735-63c9-4ee3-8ed9-83f897012972)
 
-All rows were found to have a length of 16 meaning all ids were correctly inputted into the dataset.
+All rows were found to have a length of 16 meaning all ids were correctly entered into the dataset.
 
 5. The **rideable_type** was checked to see how many types of bike were used.
 
@@ -87,4 +87,8 @@ All rows were found to have a length of 16 meaning all ids were correctly inputt
 
 3 Types of bike were used; Electric, Classic, and Docked.
 
-6.
+6. Next **started_at** and **ended_at** were queried to identify the format used for the start and end time for each trip. YYYY-MM-DD hh:mm:ss UTC format was used.
+
+7. Trip duration was then checked. I specifically looked to find how many trips were shorter than a minute or longer than a day because those would need to be removed in the cleaning step. 5292 trips were longer than a day, and 153,165 trips were shorter than a minute.
+
+8. The number of rows with **null values** was then checked. I took the count of **null values** in **start_station_name** or **start_station_id**, and the **null values** in **end_station_name** or **end_staton_id**. There were 868,904 missing values for start location and 925,149 missing values for end location.
