@@ -69,7 +69,8 @@ Observations:
 2. The table below displays the number of  **null values** in each column
 
 ![combined table null values](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/032943ae-2636-40a2-a243-b887f690a30b)
-several columns were found to have missing data, including starting_station id and name, ending_station id and name as well as the ending longitude and latitude.
+Several columns were found to have missing data, including starting_station id and name, ending_station id and name as well as the ending longitude and latitude.
+
 3. I then queried to find out if there were any duplicate rows in the ride_id column which would indicate duplicate rows of data that would need to be cleaned. No duplicates were found.
 
 ![Duplicate rows query](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/d7930a27-a1d1-4200-b9a2-c4fa39131200)
