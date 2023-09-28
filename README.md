@@ -1,7 +1,7 @@
 # Google Data Analytics Case Study Cyclistic
 Capstone Project for Google Data Analytics Certificate
 ## Introduction:
-In this Case study I will perform the tasks of a junior data analyst at a fictional bikeshare company, Cyclistic, using real world data. By following the Data-Driven Decision-Making Process: [Ask](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#Ask), [Prepare](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#prepare), [Process](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#process), [Analyze](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#analyze), [Share](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#share) and Act, to answer business questions.
+In this Case study I will perform the tasks of a junior data analyst at a fictional bikeshare company, Cyclistic, using real world data. By following the Data-Driven Decision-Making Process: [Ask](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#Ask), [Prepare](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#prepare), [Process](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#process), [Analyze](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#analyze), [Share](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#share) and [Act](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#act), to answer business questions.
 ## Contents
 Data Source: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
@@ -175,3 +175,8 @@ Summary:
 |Start and end their journeys near downtown recreational sites.|Start and end their trips close to universities, residential and commercial areas.| 
 
 ## Act
+After finding the differences between members and casual riders, marketing strategies to target casual riders can be developed to entice them to become members.  
+Recommendations: 
+1. Casual riders are most active on weekends and in summer/spring. Offering a weekend only or seasonal membership may be attractive to them.
+2. Marketing campaigns may be targeted to areas where casual riders are most active in downtown and near tourist or recreation areas.
+3. Casual riders use their bikes for longer trips, offering a push notification after a long trip may convince them of the savings of getting a membership
