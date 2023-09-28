@@ -91,4 +91,6 @@ All rows were found to have a length of 16 meaning all ids were correctly entere
 
 7. Trip duration was then checked. I specifically looked to find how many trips were shorter than a minute or longer than a day because those would need to be removed in the cleaning step. 5292 trips were longer than a day, and 153,165 trips were shorter than a minute.
 
-8. The number of rows with **null values** was then checked. I took the count of **null values** in **start_station_name** or **start_station_id**, and the **null values** in **end_station_name** or **end_staton_id**. There were 868,904 missing values for start location and 925,149 missing values for end location.
+8. The number of rows with **null values** was then checked. I took the count of **null values** in **start_station_name** or **start_station_id**, and the **null values** in **end_station_name** or **end_staton_id**. There were 868,904 missing values for start location to be remvoed and 925,149 missing values for end location to be removed.
+
+9. **end_lat** and **end_lng** were also checked for the number of **null values** that would need to be removed. 6,102 were null.
