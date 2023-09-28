@@ -107,4 +107,18 @@ SQL Query: [Query 3 Cleaning the Data](https://github.com/DanHoffman1/Google_Dat
 3. **ride_length** of less than a minute or longer than a day were removed.
 4. Total of 1,474,260 rows removed during data cleaning.
 
-## Analyze and Share
+## Analyze
+SQL Query: [Query 4 Analyze the Data](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/Query%204%20Analyze%20the%20Data-%20(SQL))
+
+1. Query to find the number of trips per day made by members vs casual riders.
+2. Query to find the number of trips per month made by members vs casual riders.
+3. Query to find the number of trips per hour made by members vs casual riders.
+4. Total number of trips made by members vs casual riders.
+5. Query to find the number of trips by bike type made by members vs casual riders.
+6. Query to find average duration by month by members vs casual riders.
+7. Query to find average duration by day by members vs casual riders.
+8. Query to find number of trips by starting station by members vs casual riders.
+9. Query to find number of trips by ending station by members vs casual riders.
+10. Query to find number of trips by starting location by members vs casual riders.
+11. Query to find number of trips by ending location by members vs casual riders.
+
