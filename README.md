@@ -66,6 +66,6 @@ Observations:
 
 ![combined table details](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/07234167-9a45-41e9-9d29-f0eb0b75c114)
 
-2. The table below dsiplays the **null values**
+2. The table below displays the number of  **null values** in each column
 
 ![combined table null values](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/032943ae-2636-40a2-a243-b887f690a30b)
