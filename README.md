@@ -64,8 +64,10 @@ Before cleaning the data, I need to familiarize myself with the types of data I 
 Observations:
 1. The table below displays the column names and data types. ride_id is the primary key.
 
-![combined table details](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/07234167-9a45-41e9-9d29-f0eb0b75c114)
+![combined table details](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/fdabf94e-30d0-4bb0-83a1-60fa8a2897b1)
 
 2. The table below displays the number of  **null values** in each column
 
 ![combined table null values](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/032943ae-2636-40a2-a243-b887f690a30b)
+
+3. 
