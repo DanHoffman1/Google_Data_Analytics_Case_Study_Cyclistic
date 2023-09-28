@@ -55,4 +55,13 @@ Due to the volume of data. With each month of data containing several hundred th
 ### Combine Data
 SQL Query [Query 1 Combining Data](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/Query%201%20Combining%20Data)
 
-12 csv files were uploaded to Google Cloud Storage to be combined and cleaned in Bigquery. These files were loaded into the dataset "cyclistic_data" and combined into a single table named "combined_data" with 5,723,606 rows.
+12 csv files were uploaded to Google Cloud Storage to be combined and cleaned in Bigquery. These files were loaded into the dataset "cyclistic_data" and combined into a single table named "combined_data" with 5,723,606 rows for a full year.
+
+### Data Exploration
+SQL Query [Query 2 Exploring the Data](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/Query%202%20Exploring%20the%20Data%20(SQL))
+Before cleaning the data, I need to familiarize myself with the types of data I would be working with. This also allowed me to find any errors and inconsistencies.
+
+Observations:
+1. The Table below displays the column names and data types. ride_id is the primary key.
+   ![combined table details](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/07234167-9a45-41e9-9d29-f0eb0b75c114)
+
