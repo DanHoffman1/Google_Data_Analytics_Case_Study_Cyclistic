@@ -171,5 +171,7 @@ Summary:
 |Casual|Member|
 |------|------|
 |Prefer using bikes throughout the day, more frequently over the weekends in summer and spring for recreation activities.|Prefer riding bikes on week days during commute hours (8 am / 5pm) in summer and spring.|
-|Travel 2 times longer but less frequently than members.|Travel more frequently but shorter rides (approximately half of casual riders' trip duration).|
+|Travel twice as longer but less frequently than members.|Travel more frequently but shorter rides (approximately half of casual riders' trip duration).|
 |Start and end their journeys near downtown recreational sites.|Start and end their trips close to universities, residential and commercial areas.| 
+
+## Act
