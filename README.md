@@ -102,3 +102,9 @@ All rows were found to have a length of 16 meaning all ids were correctly entere
 ### Data Cleaning
 SQL Query: [Query 3 Cleaning the Data](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/Query%203%20Cleaning%20the%20Data%20(SQL))
 
+1. 3 new rows were created: **day_of_week**, **month**, and **ride_length**
+2. All rows with **null values** were removed.
+3. **ride_length** of less than a minute or longer than a day were removed.
+4. Total of 1,474,260 rows removed during data cleaning.
+
+## Analyze and Share
