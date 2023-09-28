@@ -1,7 +1,7 @@
 # Google Data Analytics Case Study Cyclistic
 Capstone Project for Google Data Analytics Certificate
 ## Introduction:
-In this Case study I will perform the tasks of a junior data analyst at a fictional bikeshare company, Cyclistic, using real world data. By following the Data-Driven Decision-Making Process: [Ask](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#Ask), [Prepare](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#prepare), [Process](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#process), [Analyze](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#analyze), Share and Act, to answer business questions.
+In this Case study I will perform the tasks of a junior data analyst at a fictional bikeshare company, Cyclistic, using real world data. By following the Data-Driven Decision-Making Process: [Ask](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#Ask), [Prepare](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#prepare), [Process](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#process), [Analyze](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#analyze), [Share](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#share) and Act, to answer business questions.
 ## Contents
 Data Source: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
@@ -124,4 +124,13 @@ SQL Query: [Query 4 Analyze the Data](https://github.com/DanHoffman1/Google_Data
 
 ## Share
 Data Visualizations [Tableau](https://public.tableau.com/app/profile/daniel.hoffman8788/viz/CyclisticCaseStudy_16953515488350/Dashboard1#1) 
+
+Tableau was used for compelling visualizations as Bigquery was not able to make graphs or other visualizations.
+
+The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?
+
+First I compared the duration of rides per day of the week, and month
+
+![rides by day](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/59592b88-6126-46c9-befa-99bf7d6970d2)
+![duration by months by member vs casual](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/029cc8e8-96aa-4c93-86d2-f2ad2fe23294)
 
