@@ -1,7 +1,7 @@
 # Google Data Analytics Case Study Cyclistic
 Capstone Project for Google Data Analytics Certificate
 ## Introduction:
-In this Case study I will perform the tasks of a junior data analyst at a fictional bikeshare company, Cyclistic, using real world data. By following the Data-Driven Decision-Making Process: [Ask](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#Ask), [Prepare](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#prepare), [Process](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#process), Analyze, Share and Act, to answer business questions.
+In this Case study I will perform the tasks of a junior data analyst at a fictional bikeshare company, Cyclistic, using real world data. By following the Data-Driven Decision-Making Process: [Ask](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#Ask), [Prepare](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#prepare), [Process](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#process), [Analyze](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/README.md#analyze), Share and Act, to answer business questions.
 ## Contents
 Data Source: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
@@ -121,4 +121,7 @@ SQL Query: [Query 4 Analyze the Data](https://github.com/DanHoffman1/Google_Data
 9. Query to find number of trips by ending station by members vs casual riders.
 10. Query to find number of trips by starting location by members vs casual riders.
 11. Query to find number of trips by ending location by members vs casual riders.
+
+## Share
+Data Visualizations [Tableau](https://public.tableau.com/app/profile/daniel.hoffman8788/viz/CyclisticCaseStudy_16953515488350/Dashboard1#1) 
 
