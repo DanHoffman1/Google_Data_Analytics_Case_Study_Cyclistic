@@ -139,3 +139,9 @@ Note that casual riders tend to ride for about twice as long as members, this co
 Next I compared the number of trips by day, month and time of day by members vs. casual riders.
 
 ![Trips over time](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/cbce8788-3811-4179-a03d-36ad4f23bb81)
+
+**Day of the week** From this graph we can see that no matter the day, members take more trips than casual riders. Members take more trips during business days and less on the weekends. Casual riders have the opposite trend. 
+**Time of day** From this graph we can see members are mostly commuters, with number of trips peaking during rush hour times. Casual riders consistently increase the number of trips throughout the day and then decrease in the late hours/early morning hours of the day.
+**Month** From this graph we see that members take more trips thoughout the year than casual members. However they both have the same trend of increasing number of trips as the weather warms up and then decreases after September as the weather gets colder.
+
+We can infer from these observations that members may be using bikes for commuting to and from the work in the week days while casual riders are using bikes throughout the day, more frequently over the weekends for recreation purposes. Both are most active in summer and spring
