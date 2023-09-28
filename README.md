@@ -62,7 +62,7 @@ SQL Query: [Query 2 Exploring the Data](https://github.com/DanHoffman1/Google_Da
 Before cleaning the data, I need to familiarize myself with the types of data I would be working with. This also allowed me to find any errors and inconsistencies.
 
 Observations:
-1. The table below displays the column names and data types. ride_id is the primary key.
+1. The table below displays the column names and data types. **ride_id** is the primary key.
 
 ![combined table details](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/fdabf94e-30d0-4bb0-83a1-60fa8a2897b1)
 
@@ -71,13 +71,20 @@ Observations:
 ![combined table null values](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/032943ae-2636-40a2-a243-b887f690a30b)
 Several columns were found to have missing data, including starting_station id and name, ending_station id and name as well as the ending longitude and latitude.
 
-3. I then queried to find out if there were any duplicate rows in the ride_id column which would indicate duplicate rows of data that would need to be cleaned. No duplicates were found.
+3. I then queried to find out if there were any **duplicate** rows in the ride_id column which would indicate duplicate rows of data that would need to be cleaned. No duplicates were found.
 
 ![Duplicate rows query](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/d7930a27-a1d1-4200-b9a2-c4fa39131200)
 
-4. Next the length of the primary key, ride_id, was checked to make sure that all of the entries had the correct length. This was done to ensure that none of the rider ids were incomplete indicating an error in entry.
+4. Next the length of the primary key, **ride_id**, was checked to make sure that all of the entries had the correct length. This was done to ensure that none of the rider ids were incomplete indicating an error in entry.
 
 ![ride_id length](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/06d3e735-63c9-4ee3-8ed9-83f897012972)
+
 All rows were found to have a length of 16 meaning all ids were correctly inputted into the dataset.
 
-4.
+5. The **rideable_type** was checked to see how many types of bike were used.
+
+![rideable_type](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/9d1c4f83-3b7c-4ac5-91a8-312394351352)
+
+3 Types of bike were used; Electric, Classic, and Docked.
+
+6.
