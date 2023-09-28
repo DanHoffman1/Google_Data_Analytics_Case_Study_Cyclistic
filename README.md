@@ -146,4 +146,8 @@ Next I compared the number of trips by day, month and time of day by members vs.
 
 **Month** From this graph we see that members take more trips thoughout the year than casual members. However they both have the same trend of increasing number of trips as the weather warms up and then decreases after September as the weather gets colder.
 
-We can infer from these observations that members may be using bikes for commuting to and from the work in the week days while casual riders are using bikes throughout the day, more frequently over the weekends for recreation purposes. Both are most active in summer and spring
+We can infer from these observations that members may be using bikes for commuting to and from the work in the week days while casual riders are using bikes throughout the day, more frequently over the weekends for recreation purposes. Both are most active in summer and spring.
+
+Next I show what types of bikes members use vs casual riders.
+
+![Rideable type](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/2e71e2c8-4e27-4482-9755-d733e445e4fe)
