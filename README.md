@@ -133,5 +133,9 @@ First I compared the duration of rides per day of the week, and month
 
 ![rides by day](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/59592b88-6126-46c9-befa-99bf7d6970d2)
 ![duration by months by member vs casual](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/029cc8e8-96aa-4c93-86d2-f2ad2fe23294)
-
+ 
 Note that casual riders tend to ride for about twice as long as members, this could be due to a longer commute, a more recreational use of the bikes, or a longer distance trip. The members are consistent through the business days of the week, indicating a regular commute, and this also shows a consistent use through all months of the year with a slight increse through the warmer months. There is also an increase in both members and causal riders on weekends which could indicate recreational use. Casual riders also see a large increase in duration during the warmer months which would be consistent for Chicago as you would not want to ride a bike in the winter recreationaly, but would use it more recreatinaly in the warmer months.
+
+Next I compared the number of trips by day, month and time of day by members vs. casual riders.
+
+![Trips over time](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/cbce8788-3811-4179-a03d-36ad4f23bb81)
