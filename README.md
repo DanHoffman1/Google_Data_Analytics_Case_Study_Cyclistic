@@ -75,3 +75,9 @@ Several columns were found to have missing data, including starting_station id a
 
 ![Duplicate rows query](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/d7930a27-a1d1-4200-b9a2-c4fa39131200)
 
+4. Next the length of the primary key, ride_id, was checked to make sure that all of the entries had the correct length. This was done to ensure that none of the rider ids were incomplete indicating an error in entry.
+
+![Duplicate rows query](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/e1b77146-f60a-4b3e-8ca5-156ef742d496)
+All rows were found to have a length of 16 meaning all ids were correctly inputted into the dataset.
+
+4.
