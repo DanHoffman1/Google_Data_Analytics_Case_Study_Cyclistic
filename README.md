@@ -62,7 +62,11 @@ SQL Query: [Query 2 Exploring the Data](https://github.com/DanHoffman1/Google_Da
 Before cleaning the data, I need to familiarize myself with the types of data I would be working with. This also allowed me to find any errors and inconsistencies.
 
 Observations:
-1. The Table below displays the column names and data types. ride_id is the primary key.
+1. The table below displays the column names and data types. ride_id is the primary key.
 
 ![combined table details](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/07234167-9a45-41e9-9d29-f0eb0b75c114)
+
+2. The table below dsiplays the **null values**
+
+![combined table null values](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/9b674a01-e9f9-4d88-a791-cc3bf41e4b5d)
 
