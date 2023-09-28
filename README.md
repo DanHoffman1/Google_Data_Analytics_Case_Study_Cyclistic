@@ -94,3 +94,11 @@ All rows were found to have a length of 16 meaning all ids were correctly entere
 8. The number of rows with **null values** was then checked. I took the count of **null values** in **start_station_name** or **start_station_id**, and the **null values** in **end_station_name** or **end_staton_id**. There were 868,904 missing values for start location to be remvoed and 925,149 missing values for end location to be removed.
 
 9. **end_lat** and **end_lng** were also checked for the number of **null values** that would need to be removed. 6,102 were null.
+
+10. Lastly the **member_casual** column was checked to make sure only the entries of either **member** or **causal** were in the dataset. No other entries were entered, no cleaning of this column was required.
+
+![member casual](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/assets/137096478/06b36161-e957-4f1e-8526-07a5ce76f01c)
+
+### Data Cleaning
+SQL Query: [Query 3 Cleaning the Data](https://github.com/DanHoffman1/Google_Data_Analytics_Case_Study_Cyclistic/blob/main/Query%203%20Cleaning%20the%20Data%20(SQL))
+
